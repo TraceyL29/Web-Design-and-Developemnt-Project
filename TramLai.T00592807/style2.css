@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+/*Badic styles*/
+
+/*Mobile styles: 0px to 480px*/
+
+@media only screen and (max-width : 480px){
+	nav.navilist li{
+		float: left;
+		width: 16%;
+		border-width: 3px;
+		margin-right: 5px;
+		margin-left: 1px;
+		font-size: 15px;
+
+
+	}
+nav.navilist li a{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 0.8em;
+	
+	}
+	audio{
+		left: 30px;
+	}
+	video{
+		width: 400px;;
+		height: auto;
+	}
+	h1{
+	display: none;
+	}
+	
+	
+	p{
+		width: 355px;
+		font-size: 15px;
+		margin: auto;
+	}
+	img#fb_link{
+		top: 190px;
+		right: 10px;
+	}
+	img#linkedIn_link{
+		top: 240px;
+		right: 10px;
+	}
+	img#fb_link, img#linkedIn_link{
+	width: 40px;
+	height: 40px;
+	
+}
+	img.storyImg{
+		width: 160px;
+	}
+	footer, footer address{
+		font-size: 0.7em;
+	}
+	div#story{
+		background-size: 400px 3000px;
+	}
+	
+	table th,td{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin-left: 45px;
+	}
+	
+		div[class^="col-"]{
+		width:100%;	
+}
+	div#time{
+		position: absolute;
+		font-size: 15px;
+		top: 40px;
+		left: 10px;
+	}
+	div#date{
+		display: none;
+	}
+	ul.unlist li{
+		font-size: 19px;
+		
+	}
+body ol.unlist{
+		width:inherit;
+	}
+	
+	
+}
+	
+/*Deskop styles: 769px and greater */
+@media only screen and (min-width : 480px){
+		nav.navilist li{
+		float: left;
+		width: 16%;
+		border-width: 3px;
+		margin-right: 5px;
+		margin-left: 1px;
+		font-size: 15px;
+	}
+	
+
+}

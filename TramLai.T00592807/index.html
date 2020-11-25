@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="vinamilk, milk, vinamilk product" />
+<meta name="description" content="Vinamilk">
+<meta name="author" content="Tram Lai">
+<meta name="viewport" content="width=device-width, initial-scale=1, maxmium-scale=1" />
+<link href="style3.css" rel="stylesheet" type="text/css"/>
+<script src="javaSript.js" defer></script>
+
+<title>Vinamilk</title>
+<!--
+<style id="style">
+html{
+	background-image: url(35d2966b116a33ec677b801e2a84ef09.jpg);
+	background-repeat: repeat;
+	background-size: auto;
+	height: 100%;
+}
+/*Page Body Styles*/
+img#fb_link{
+	position: fixed;
+	border-radius: 10px;
+	top: 120px;
+	right: 30px;
+}
+img#linkedIn_link{
+	position: fixed;
+	top: 180px;
+	border-radius: 10px;
+	right: 30px;
+}
+
+body{
+	background-image: url(background.jpg);
+	width: 95%;
+	max-width: 960px;
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	border-left: 1px solid rgb(51, 51, 51);
+	border-right: 1px solid rgb(51, 51, 51);
+	border-bottom: 1px solid rgb(51, 51, 51);
+	opacity: 1;
+}
+
+
+body h1#h1{
+	position: relative;
+	color:hsla(290,100%,20%,0.3);
+	font-size: 2.2em;
+	right: 650px;
+	top: 35px;
+	letter-spacing: 0.1em;
+}
+body p {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	word-spacing: 5px;
+	line-height: normal;
+	text-indent: 10px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+p img{
+	float: right;
+}
+p#charac{
+	font-size: 15px;
+	margin-top: 2px;
+}
+
+
+body > section > p:first-letter{
+	font-size: 200%;
+}
+
+/*Image styles*/
+body > header > img.img1{
+	display: block;
+	width: 100%;
+}
+
+/*Figure Box Style*/
+figure.fig1{
+	border-style: solid;
+	border-width: 29px;
+	border-image: url(border.jpg) 50 repeat;
+	margin: auto;
+	width: 50%;
+}
+figure img.img2{
+	display: block;
+	width: 100%;
+}
+
+figure figcaption{
+	font-family: "Palatino Linotype", Palatino, 'Times New Roman', serif;
+	color: darkgoldenrod;
+	font-size: 18px;
+	font-style: italic;
+	outline-style: dotted;
+	text-align: center;
+}
+/*Iframe styles*/
+video{
+	box-shadow: rgb(51, 51, 51) 8px 8px 15px;
+	display: block;
+	margin: 0px auto;
+	width: 560px;
+	height: 315px;
+}
+
+
+/*Horizontal and Navigation Styles*/
+ nav.navilist li{
+	display: block;
+	width:20%;
+	height:30px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 3px;
+	border: 4px double rgb(45, 93,62);
+	border-radius: 10px;
+	background: radial-gradient(white, #e66465, #9198e5);
+	box-shadow: inset rgb(71, 71, 71) -10px -10px 25px;
+	float: left;
+}
+
+ nav.navilist  li a {
+	display: block;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-decoration:none;
+	width:100%;
+	text-align:center;
+    font-size: 1.2em;
+	letter-spacing: 0em;
+	text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
+  }
+nav.navilist li a:visited, nav.navilist li a:link{
+	color: chartreuse;
+}
+
+nav.navilist li a:hover, nav.navilist li a:active{
+	color: antiquewhite;
+}
+
+/*blockquote styles*/
+body blockquote{
+	quotes: "\201C" "\201D";
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+body blockquote::before{
+	content: open-quote;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+body blockquote::after{
+	content: close-quote;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+/*footer styles*/
+footer{
+background-color:aqua;
+color:maroon;
+color: rgb(128,0,0);
+font: normal small-caps bold 1em/1.5em
+Quicksand, Verdana, Geneva, sans-serif;
+text-align: center;
+}
+footer address{
+	font-size: 14px;
+}
+/*Date and Time styles*/
+div#date{
+position: absolute;
+
+color: red;
+top: 120px;
+font-size: 25px;
+}
+
+div#time{
+	position: absolute;
+	top: 150px;
+	font-size: 30px;
+}
+/*Audio*/
+audio{
+position: absolute;
+top: 10px;
+right: 198px;
+}
+/*Transition style*/
+nav.navilist a:hover{
+font-size: 1.5em;
+text-decoration: underline;
+text-transform:uppercase;
+font-variant: small-caps;
+letter-spacing: 0.1em;
+text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+}
+
+@media only screen and (max-width : 480px){
+nav.navilist li{
+		float: left;
+		width: 16%;
+		border-width: 3px;
+		margin-right: 5px;
+		margin-left: 1px;
+		font-size: 15px;
+
+
+	}
+nav.navilist li a{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 0.8em;
+
+	}
+	audio{
+		left: 30px;
+	}
+	video{
+		width: 400px;;
+		height: auto;
+	}
+	h1{
+	display: none;
+	}
+
+
+	p{
+		width: 355px;
+		font-size: 15px;
+		margin: auto;
+	}
+	img#fb_link{
+		top: 190px;
+		right: 10px;
+	}
+	img#linkedIn_link{
+		top: 240px;
+		right: 10px;
+	}
+	img#fb_link, img#linkedIn_link{
+	width: 40px;
+	height: 40px;
+
+}
+	img.storyImg{
+		width: 160px;
+	}
+	footer, footer address{
+		font-size: 0.7em;
+	}
+
+	div#time{
+		font-size: 15px;
+		margin: auto;
+		top: 40px;
+		left: 10px;
+	}
+	div#date{
+		display: none;
+	}
+	}
+	/*Deskop styles: 769px and greater */
+@media only screen and (min-width : 480px){
+		nav.navilist li{
+		float: left;
+		width: 16%;
+		border-width: 3px;
+		margin-right: 5px;
+		margin-left: 1px;
+		font-size: 15px;
+	}
+	}
+</style>-->
+</head>
+<body>
+		<a href="https://www.facebook.com/vinamilkbiquyetngonkhoetuthiennhien/">
+	<img id="fb_link" src="fb_icon_325x325.png" alt="" width="45" height="46"/></a>
+	<a href="https://www.linkedin.com/company/914574/">
+		<img src="LinkedIn_HP.jpg" alt="" width="42" height="45" id="linkedIn_link"/></a>
+<header id="home">
+  <img class="img1" src="images/top-image.jpg" alt="vinamilk"/>
+  <nav class="navilist">
+		<ul class="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="OurStoryPage.html">Our Story</a></li>
+		  <li><a href="Products.html">Product</a></li>
+		  <li><a href="OrderPage.html">Order</a></li>
+		<li><a href="CrossReferencePage.htm">Cross Reference</a></li>
+		</ul>
+		</nav>
+	</header>
+	<audio id="aud" controls>
+	<source src="music.mp3" type="audio/mp3" >
+	<source src="music.ogg" type="audio/ogg" >
+	</audio>
+	<div id="time"></div>
+	<div id="date"></div>
+
+	<section id="sec">
+	<p><strong>Vinamilk</strong> is the largest dairy company in Vietnam. It's also the 15th
+			largest company in Vietnam. In 2010, it is the first company in Vietnam to be included
+			in the Forbes Asia's 200 Best Under A Billion list that highlights 200 top-performing
+		small- and mid-sized companies with annual revenue under US$1 billion.</p>
+		<figure class="fig1">
+		<img src="images/vinamilk.jpg" alt="product" class="img2" usemap="#productmap"/>
+		<figcaption>Vinamilk product</figcaption>
+		</figure>
+		<map name="productmap">
+		<area shape="rect" coords="4,147,549,457" href="Products.html" alt="product">
+		</map>
+
+		<p id="para">The company was established in 1976 as the state-owned Southern Coffee-Dairy Company,
+			to nationalize and take over the operations of three previously private dairy factories
+			in South Vietnam: <em>Thong Nhat</em> (belonging to a Chinese company), <em>Truong Tho</em>( formerly owned
+			by Friesland Foods, best known for its production of condensed milk that was widely distributed
+			across the South) and <em>Dielac(Nestle)</em>. It was renamed United Enterprises of Milk Coffee Cookies
+			and Candies in 1978. It became the Vietnam Dairy Company, formally established in 1993. In 2003,
+			following its IPO to the Ho Chi Minh Stock Exchange, the comapny legally changed its name to Vietnam
+			Dairy Product Joint Stock Company (Vinamilk). The principal activities of the <span id="sp" style="color:blue;font-weight:bold">Vinamilk</span> are to produce
+			and distribute condensed milk, powdered milk, fresh milk, soya milk, yogurts, ice-cream, cheese,
+			fruit juice, coffee and other products derived from milk.</p>
+	<video controls id="vd">
+		<source src="Vinamilk40years.mp4" type="video/mp4" />
+		<source src="Vinamilk40years.webm" type="video/webm" />
+	</video>
+	  <blockquote id="bq">Vinamilk products such as powdered milk and condensed milk are also exported to the Middle East,
+	Cambodia, the Philippines and Australia. Exports accounted for $180m in 2012. Vinamilk's main competitors
+	are Dutch Lady Vietnam (a division of Friesland Foods), Nestlé Vietnam, Abbott, Mead Johnson, Friso and
+	  Nutifood. In September 2016 Vinamilk signed a strategic cooperation agreement with Chr. Hansen to develop probiotics.</blockquote>
+
+	</section>
+
+	<footer id="foot">Call: <a href="tel:+17782576745">(778) 257 6745</a>  to schedule a tour or to
+            learn more about our facilities and our products.
+	<address id="ad">
+	HEAD OFFICE<br />
+	Tan Trao Street, Tan Phu Ward &#8226; District 7 &#8226; Ho Chi Minh City<br />
+	</address>
+		<p id="charac">Copyright &copy; Tram Lai<br />Last modified: April 8, 2018</p>
+	</footer>
+</body>
+</html>

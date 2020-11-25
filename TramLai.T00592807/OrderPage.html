@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="vinamilk, milk, vinamilk product" />
+<meta name="description" content="Vinamilk">
+<meta name="author" content="Tram Lai">
+<meta name="viewport" content="width=device-width, initial-scale=1, maxmium-scale=1" />
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+<link href="style2.css" rel="stylesheet" type="text/css"/>
+<script src="javaSript.js" defer></script>
+<title>Order</title>
+</head>
+
+<body>
+	<a href="https://www.facebook.com/vinamilkbiquyetngonkhoetuthiennhien/">
+	<img id="fb_link" src="fb_icon_325x325.png" alt="" width="45" height="46"/></a>
+	<a href="https://www.linkedin.com/company/914574/">
+		<img src="LinkedIn_HP.jpg" alt="" width="42" height="45" id="linkedIn_link"/></a>
+<header>
+  <img class="img1" src="Slide-29.jpg" alt="vinamilk"/>
+  <nav class="navilist">
+		<ul class="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="OurStoryPage.html">Our Story</a></li>
+		  <li><a href="Products.html">Product</a></li>
+		  <li><a href="OrderPage.html">Order</a></li>
+		<li><a href="CrossReferencePage.htm">Cross Reference</a></li>
+		</ul>
+		</nav>
+	</header>
+		<audio controls>
+	<source src="music.mp3" type="audio/mp3" >
+	<source src="music.ogg" type="audio/ogg" >
+	</audio>
+	
+	<form id="order" action="mailto:hongoctram17@gmail.com" onsubmit="return validate()" method="post">
+	<fieldset id="custOrder">
+	<legend>Customer Order</legend>
+	<table>
+		<thead>
+		<tr>
+		<th></th>
+		<th class="h1">Customer information</th>
+		<th class="h2">What would you like to order?</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		  <th></th>
+		<td>
+	  <label for="name">Name</label>
+	  <input name="custName" id="name" type="text" size="25" placeholder="first name and last name" required/>
+		</td>
+		<td>
+			<input name="product1" id="p1" value="yes" type="checkbox"/>
+			<label for="p1">Vinamilk liquid milk $12.00</label>
+			<label for="q1">Quantity</label>
+			<input name="quanProduct1" id="q1" type="number" value="0" step="1" min="0" max="50"/> 
+			</td>
+		</tr>
+			<tr>
+		<th></th>
+		<td>
+		<label for="street">Billing address</label>
+	  <input name="custStreet" id="street" type="text" size="25" required/>		
+		</td>
+		<td>
+		<input name="product2" id="p2" value="yes" type="checkbox"/>
+		<label for="p2">Dielac Alpha Gold $15.00</label>
+		<label for="q2">Quantity</label>
+			<input name="quanProduct2" id="q2" type="number" value="0" step="1" min="0" max="50"/>
+		</td>
+		</tr>
+		<tr>
+		<th></th>
+		<td>
+		<label for="zip">Post Code</label>
+		<input name="custZip" id="zip" type="text" size="25" placeholder="nnn-nnn" required/>
+		</td>
+		<td>
+		<input name="product3" id="p3" value="yes" type="checkbox"/>
+		<label for="p3">Vinamilk Cheese $8.00</label>
+		<label for="q3">Quantity</label>
+			<input name="quanProduct3" id="q3" type="number" value="0" step="1" min="0" max="50"/>
+		</td>
+			</tr>
+		<tr>
+			<th></th>
+		<td>
+		<label for="phone">Contact number</label>
+		<input name="custPhone" id="phone" type="tel" size="25" placeholder="nnn-nnn-nnnn" required/>
+		</td>
+		<td>
+		<input name="product4" id="p4" value="yes" type="checkbox"/>
+		<label for="p4">Vinamilk Beauty Yogur $3.00</label>
+		<label for="q4">Quantity</label>
+			<input name="quanProduct4" id="q4" type="number" value="0" step="1" min="0" max="50"/>
+		</td>
+		</tr>
+		<tr>
+		<th></th>
+			<td>
+		<label for="email">Email</label>
+		<input name="custName" id="email" type="email" size="25"/>
+			</td>
+			<td>
+		<input name="product5" id="p5" value="yes" type="checkbox"/>
+		<label for="p5">Ice-cream $5.00</label>
+		<label for="q5">Quantity</label>
+			<input name="quanProduct5" id="q5" type="number" value="0" step="1" min="0" max="50"/>
+			</td>
+		</tr>
+		<tr>
+		<th></th>
+			<td>
+			<label for="date">Date</label>
+			<input name="custDate" id="date" type="date" required/>
+			</td>
+			<td>
+		<input name="product6" id="p6" value="yes" type="checkbox"/>
+		<label for="p6">Soymilk $8.00</label>
+		<label for="q6">Quantity</label>
+			<input name="quanProduct6" id="q6" type="number" value="0" step="1" min="0" max="50"/>
+			</td>
+		</tr>
+			<tr>
+			<th></th>
+				<td>
+				<label for="commonBox">Additional request</label>
+				<textarea name="equest" id="commonBox"></textarea>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+			<th></th>
+			<td colspan="2">
+				<input type="submit" value="Submit my order " id="button1"/>
+				<input type="reset" value="Cancel" id="button2"/>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+			</fieldset>
+	</form>
+	
+</body>
+</html>
